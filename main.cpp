@@ -4,7 +4,7 @@
 #include<stdlib.h>
 #include<fstream>
 #include<string.h>
-
+#include<conio.h>
 using namespace std;
 class Lib {
 	public:
@@ -585,7 +585,7 @@ void Lib::der(char st[],int b,int x) {
 }
 void Lib::get() {
 	int i;
-	cout<<"\n\t*********** LIBRARY MANAGEMENT SYSTEM ***********\n"<<"\n\t\t\t    Learnprogramo <<LMS>> C++\n";
+	cout<<"\n\t*********** LIBRARY MANAGEMENT SYSTEM ***********\n"<<"\n\t\t\t    Created by : Anmol Vijyavergiya\n";
 	cout<<"\n\t\t>>Please Choose Any Option To login \n";
 	cout<<"\n\t\t1.Student\n\n\t\t2.Librarian\n\n\t\t3.Close Application\n";
 	cout<<"\n\t\tEnter your choice : ";
@@ -629,7 +629,7 @@ void Lib::student() {
 }
 void Lib::pass() {
 	int i=0;
-	char ch,st[21],ch1[21]= {"Created by : Anmol Vijayvergiya"};
+	char ch,st[21],ch1[121]= {"Created by : Anmol Vijayvergiya"};
 	cout<<"\n\t\tEnter Password : ";
 	while(1) {
 		ch=getch();
