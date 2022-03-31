@@ -1,12 +1,11 @@
-//Library Management System
+/*Library Management System*/
 #include<iostream>
 #include<stdio.h>
 #include<stdlib.h>
 #include<fstream>
 #include<string.h>
-#include<conio.h>
-using namespace std;
 
+using namespace std;
 class Lib {
 	public:
 		char bookname[100],auname[50],sc[20],sc1[50];
@@ -630,7 +629,7 @@ void Lib::student() {
 }
 void Lib::pass() {
 	int i=0;
-	char ch,st[21],ch1[21]= {"learnprogramo"};
+	char ch,st[21],ch1[21]= {"Created by : Anmol Vijayvergiya"};
 	cout<<"\n\t\tEnter Password : ";
 	while(1) {
 		ch=getch();
